@@ -1,0 +1,42 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:views="using:MosaikaApp.Views"
+			 mc:Ignorable="d" d:DesignWidth="1500" d:DesignHeight="700"
+			 x:Class="MosaikaApp.Views.SelectMaterialsView"
+			 x:DataType="views:SelectMaterialsView">
+	<Grid RowDefinitions="Auto, *, Auto" Margin="20">
+		<StackPanel Grid.Row="0" Margin="0,0,0,20" Orientation="Horizontal" Spacing="10">
+			<Image Source="/Assets/Mosaika.png" Width="30" Height="30"/>
+			<TextBlock Text="Выберите материалы продукта:" FontSize="20" FontWeight="Bold"/>
+			<TextBlock Name="ProductNameTextBlock" Foreground="#546F94" FontSize="20" FontWeight="Bold"/>
+		</StackPanel>
+
+		<DataGrid Grid.Row="1"
+				  Name="AllMaterialsGrid"
+				  ItemsSource="{Binding AllMaterials}"
+				  AutoGenerateColumns="False">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Наименование" Binding="{Binding Material.Name}" IsReadOnly="True" Width="3*"/>
+				<DataGridTextColumn Header="Цена за ед." Binding="{Binding Material.Unitprice, StringFormat='{}{0:F2}'}" IsReadOnly="True" Width="*"/>
+				<DataGridTemplateColumn Header="Количество" Width="*">
+					<DataTemplate>
+						<NumericUpDown Value="{Binding Quantity}"
+									   Minimum="0"
+									   Maximum="999999"
+									   Increment="1"
+									   ParsingNumberStyle="Integer"
+									   FormatString="N0"/>
+					</DataTemplate>
+				</DataGridTemplateColumn>
+				<DataGridTextColumn Header="Ед. изм." Binding="{Binding Material.Unit.Name}" IsReadOnly="True" Width="Auto"/>
+			</DataGrid.Columns>
+		</DataGrid>
+
+		<StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="20" Margin="0,20,0,0">
+			<TextBlock Name="TotalCostTextBlock" Text="Итоговая стоимость: 0.00 p" FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
+			<Button Content="Сохранить состав" Click="SaveButton_Click"/>
+		</StackPanel>
+	</Grid>
+</UserControl>

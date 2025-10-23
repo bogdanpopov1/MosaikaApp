@@ -1,0 +1,39 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:views="using:MosaikaApp.Views"
+			 mc:Ignorable="d" d:DesignWidth="1500" d:DesignHeight="700"
+			 x:Class="MosaikaApp.Views.ProductMaterialsView"
+			 x:DataType="views:ProductMaterialsView">
+
+	<Grid RowDefinitions="Auto, *, Auto" Margin="20">
+		<StackPanel Grid.Row="0" Margin="0,0,0,20" Orientation="Horizontal" Spacing="10">
+			<Image Source="/Assets/Mosaika.png" Width="30" Height="30"/>
+			<TextBlock Text="Состав продукта:" FontSize="20" FontWeight="Bold"/>
+			<TextBlock Name="ProductNameTextBlock" Foreground="#546F94" FontSize="20" FontWeight="Bold"/>
+		</StackPanel>
+
+		<DataGrid Grid.Row="1"
+				  Name="MaterialsGrid"
+				  ItemsSource="{Binding Materials}"
+				  AutoGenerateColumns="False"
+				  IsReadOnly="True">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Материал" Binding="{Binding Material.Name}" Width="2*"/>
+				<DataGridTextColumn Header="Количество" Binding="{Binding Quantity}" Width="*"/>
+				<DataGridTextColumn Header="Ед. изм." Binding="{Binding Material.Unit.Name}" Width="Auto"/>
+				<DataGridTextColumn Header="Цена за ед." Binding="{Binding Material.Unitprice, StringFormat='{}{0:F2}'}" Width="*"/>
+				<DataGridTextColumn Header="Стоимость" Binding="{Binding LineTotal, StringFormat='{}{0:F2}'}" Width="*"/>
+			</DataGrid.Columns>
+		</DataGrid>
+
+		<Grid Grid.Row="2" ColumnDefinitions="*, Auto" Margin="0,10,0,0">
+			<Button Grid.Column="1" Content="Сохранить отчет" Click="SaveReportButton_Click"/>
+			<TextBlock Grid.Column="0" Name="TotalCostTextBlock"
+					   Text="Итоговая стоимость: 0.00 p"
+					   HorizontalAlignment="Right" VerticalAlignment="Center"
+					   FontSize="18" FontWeight="Bold" Margin="0,0,20,0"/>
+		</Grid>
+	</Grid>
+</UserControl>

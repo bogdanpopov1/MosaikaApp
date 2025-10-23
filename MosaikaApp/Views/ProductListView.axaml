@@ -1,0 +1,56 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:views="using:MosaikaApp.Views"
+			 mc:Ignorable="d" d:DesignWidth="1500" d:DesignHeight="700"
+			 x:Class="MosaikaApp.Views.ProductListView"
+			 x:DataType="views:ProductListView">
+
+	<Grid RowDefinitions="Auto, *, Auto" Margin="10">
+
+		<StackPanel Grid.Row="0" Orientation="Horizontal" Spacing="10" Margin="0,0,0,10">
+			<Image Source="/Assets/Mosaika.png" Width="30" Height="30"/>
+			<TextBlock Text="Список продукции" FontSize="20" FontWeight="Bold" VerticalAlignment="Center"/>
+			<Button Content="Справочник материалов" Click="ViewAllMaterialsButton_Click"/>
+		</StackPanel>
+		
+
+		<ScrollViewer Grid.Row="1">
+			<ListBox Name="ProductsListBox" ItemsSource="{Binding Products}">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<Border BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="15" Margin="5">
+							<Grid ColumnDefinitions="*, Auto">
+								<StackPanel Grid.Column="0" Spacing="5">
+									<StackPanel Orientation="Horizontal">
+										<TextBlock Text="{Binding Producttype.Name}" FontWeight="Bold"/>
+										<TextBlock Text=" | "/>
+										<TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+									</StackPanel>
+									<TextBlock Text="{Binding Article, StringFormat='Артикул: {0}'}" Foreground="Gray"/>
+									<TextBlock Text="{Binding Mincostforpartner, StringFormat='Минимальная стоимость: {0:F2} pуб'}" Foreground="Gray"/>
+									<TextBlock Text="{Binding Rollwidth, StringFormat='Ширина руллона: {0:F2} м'}" Foreground="Gray"/>
+								</StackPanel>
+
+								<TextBlock Grid.Column="1"
+										   Text="{Binding CalculatedCost, StringFormat='{}{0:F2} pуб'}"
+										   FontSize="22" FontWeight="Bold"
+										   VerticalAlignment="Center" HorizontalAlignment="Right"/>
+							</Grid>
+						</Border>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+		</ScrollViewer>
+
+		<StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="10" Margin="0,10,0,0"
+					HorizontalAlignment="Right">
+			<Button Content="Добавить" Click="AddButton_Click"/>
+			<Button Content="Редактировать" Click="EditButton_Click"/>
+			<Button Content="Состав продукта" Name="ViewMaterialsButton" Click="ViewMaterialsButton_Click"/>
+            <Button Content="Удалить" Click="DeleteButton_Click" Background="Red"/>
+		</StackPanel>
+
+	</Grid>
+</UserControl>

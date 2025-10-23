@@ -1,0 +1,30 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:views="using:MosaikaApp.Views"
+             mc:Ignorable="d" d:DesignWidth="1500" d:DesignHeight="700"
+             x:Class="MosaikaApp.Views.MaterialListView"
+             x:DataType="views:MaterialListView">
+    <Grid RowDefinitions="Auto, *" Margin="20">
+        <StackPanel Grid.Row="0" Margin="0,0,0,20" Orientation="Horizontal" Spacing="10">
+            <Image Source="/Assets/Mosaika.png" Width="30" Height="30"/>
+            <TextBlock Text="Справочник материалов" FontSize="20" FontWeight="Bold"/>
+        </StackPanel>
+
+        <DataGrid Grid.Row="1"
+                  Name="AllMaterialsGrid"
+                  ItemsSource="{Binding Materials}"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Наименование" Binding="{Binding Name}" Width="2*"/>
+                <DataGridTextColumn Header="Тип" Binding="{Binding Materialtype.Name}" Width="*"/>
+                <DataGridTextColumn Header="На складе" Binding="{Binding Quantityinstock}" Width="*"/>
+                <DataGridTextColumn Header="Ед. изм." Binding="{Binding Unit.Name}" Width="Auto"/>
+                <DataGridTextColumn Header="Цена за ед." Binding="{Binding Unitprice, StringFormat='{}{0:F2}'}" Width="*"/>
+                <DataGridTextColumn Header="Поставщики" Binding="{Binding SuppliersString}" Width="3*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

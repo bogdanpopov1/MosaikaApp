@@ -1,0 +1,396 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\logic\\materialcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\logic\\materialcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\extensions\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\extensions\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\views\\materiallistview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\views\\materiallistview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\views\\productlistview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\views\\productlistview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\views\\materiallistview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\views\\materiallistview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\views\\addeditproductview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\views\\addeditproductview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\views\\productlistview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\views\\productlistview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\views\\selectmaterialsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\views\\selectmaterialsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\views\\productmaterialsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\views\\productmaterialsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\views\\addeditproductview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\views\\addeditproductview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\views\\selectmaterialsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\views\\selectmaterialsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\models\\mosaikadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\models\\mosaikadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\views\\productmaterialsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\views\\productmaterialsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\extensions\\productmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\extensions\\productmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\logic\\materialselectionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\logic\\materialselectionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\models\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\models\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|c:\\users\\bogda\\source\\repos\\mosaikaapp\\mosaikaapp\\extensions\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391F2BD-2AFB-44BD-9278-27A50E8346C3}|MosaikaApp\\MosaikaApp.csproj|solutionrelative:mosaikaapp\\extensions\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddEditProductView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\AddEditProductView.axaml.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Views\\AddEditProductView.axaml.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\AddEditProductView.axaml.cs",
+              "RelativeToolTip": "MosaikaApp\\Views\\AddEditProductView.axaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADgvy8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:50:52.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MaterialListView.axaml",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\MaterialListView.axaml",
+              "RelativeDocumentMoniker": "MosaikaApp\\Views\\MaterialListView.axaml",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\MaterialListView.axaml",
+              "RelativeToolTip": "MosaikaApp\\Views\\MaterialListView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T10:58:13.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaterialListView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\MaterialListView.axaml.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Views\\MaterialListView.axaml.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\MaterialListView.axaml.cs",
+              "RelativeToolTip": "MosaikaApp\\Views\\MaterialListView.axaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:58:13.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Extensions\\Material.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Extensions\\Material.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Extensions\\Material.cs",
+              "RelativeToolTip": "MosaikaApp\\Extensions\\Material.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:55:42.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductListView.axaml",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\ProductListView.axaml",
+              "RelativeDocumentMoniker": "MosaikaApp\\Views\\ProductListView.axaml",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\ProductListView.axaml",
+              "RelativeToolTip": "MosaikaApp\\Views\\ProductListView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T07:32:16.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MaterialCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Logic\\MaterialCalculator.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Logic\\MaterialCalculator.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Logic\\MaterialCalculator.cs",
+              "RelativeToolTip": "MosaikaApp\\Logic\\MaterialCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:56:20.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductListView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\ProductListView.axaml.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Views\\ProductListView.axaml.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\ProductListView.axaml.cs",
+              "RelativeToolTip": "MosaikaApp\\Views\\ProductListView.axaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwCcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:32:16.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductMaterialsView.axaml",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\ProductMaterialsView.axaml",
+              "RelativeDocumentMoniker": "MosaikaApp\\Views\\ProductMaterialsView.axaml",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\ProductMaterialsView.axaml",
+              "RelativeToolTip": "MosaikaApp\\Views\\ProductMaterialsView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T08:54:21.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\App.axaml",
+              "RelativeDocumentMoniker": "MosaikaApp\\App.axaml",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\App.axaml",
+              "RelativeToolTip": "MosaikaApp\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T07:33:33.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\MainWindow.axaml.cs",
+              "RelativeToolTip": "MosaikaApp\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:06:50.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SelectMaterialsView.axaml",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\SelectMaterialsView.axaml",
+              "RelativeDocumentMoniker": "MosaikaApp\\Views\\SelectMaterialsView.axaml",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\SelectMaterialsView.axaml",
+              "RelativeToolTip": "MosaikaApp\\Views\\SelectMaterialsView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T09:08:08.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "MosaikaApp\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\MainWindow.axaml",
+              "RelativeToolTip": "MosaikaApp\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T07:06:57.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddEditProductView.axaml",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\AddEditProductView.axaml",
+              "RelativeDocumentMoniker": "MosaikaApp\\Views\\AddEditProductView.axaml",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\AddEditProductView.axaml",
+              "RelativeToolTip": "MosaikaApp\\Views\\AddEditProductView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T07:50:52.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MosaikaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Models\\MosaikaDbContext.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Models\\MosaikaDbContext.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Models\\MosaikaDbContext.cs",
+              "RelativeToolTip": "MosaikaApp\\Models\\MosaikaDbContext.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAIwAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:22:42.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SelectMaterialsView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\SelectMaterialsView.axaml.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Views\\SelectMaterialsView.axaml.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\SelectMaterialsView.axaml.cs",
+              "RelativeToolTip": "MosaikaApp\\Views\\SelectMaterialsView.axaml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T09:08:08.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductMaterialsView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\ProductMaterialsView.axaml.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Views\\ProductMaterialsView.axaml.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Views\\ProductMaterialsView.axaml.cs",
+              "RelativeToolTip": "MosaikaApp\\Views\\ProductMaterialsView.axaml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwF0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:54:21.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Productmaterial.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Extensions\\Productmaterial.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Extensions\\Productmaterial.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Extensions\\Productmaterial.cs",
+              "RelativeToolTip": "MosaikaApp\\Extensions\\Productmaterial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:16:37.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MaterialSelectionItem.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Logic\\MaterialSelectionItem.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Logic\\MaterialSelectionItem.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Logic\\MaterialSelectionItem.cs",
+              "RelativeToolTip": "MosaikaApp\\Logic\\MaterialSelectionItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T09:07:28.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Program.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Program.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Program.cs",
+              "RelativeToolTip": "MosaikaApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:40:50.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Models\\Product.cs",
+              "RelativeToolTip": "MosaikaApp\\Models\\Product.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:49:49.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Extensions\\Product.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Extensions\\Product.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Extensions\\Product.cs",
+              "RelativeToolTip": "MosaikaApp\\Extensions\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:25:36.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DbHelper.cs",
+              "DocumentMoniker": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Models\\DbHelper.cs",
+              "RelativeDocumentMoniker": "MosaikaApp\\Models\\DbHelper.cs",
+              "ToolTip": "C:\\Users\\bogda\\source\\repos\\MosaikaApp\\MosaikaApp\\Models\\DbHelper.cs",
+              "RelativeToolTip": "MosaikaApp\\Models\\DbHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:23:54.767Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
